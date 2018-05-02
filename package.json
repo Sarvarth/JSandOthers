@@ -1,0 +1,31 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && concurrently \"npm  run tsc:w\" \"lite-server\"",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite-server": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "lite-server": "^2.3.0",
+    "node": "^10.0.0"
+  },
+  "devDependencies": {
+    "typings": "^2.1.1"
+  },
+  "description": "WakaTime for Visual Studio Code ===============================",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarvarth/JSandOthers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sarvarth/JSandOthers/issues"
+  },
+  "homepage": "https://github.com/Sarvarth/JSandOthers#readme"
+}
